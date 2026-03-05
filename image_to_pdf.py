@@ -44,7 +44,7 @@ def start_app():
 
 app.after(splash_duration, start_app)
 
-app.title("Image to PDF Converter")
+app.title("Image to PDF Converter by Omell")
 app.geometry("900x750")
 try:
     app.iconbitmap(resource_path("app_icon.ico"))
